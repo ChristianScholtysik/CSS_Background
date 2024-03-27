@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  background-image: url(img/photo-1525547719571-a2d4ac8945e2.jpeg);
+  color: white;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
