@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+
+  font-size: 1.2rem;
+}
+
+h3::first-letter {
+  color: #a020f0;
+  font-size: 1.8rem;
+}
+
+h3:hover::first-letter {
+  color: #00bfff;
+  font-size: 1.8rem;
+}
+
+li::first-letter {
+  color: #32cd32;
+  font-size: 1.8rem;
+}
+
+li:hover::first-letter {
+  color: #c71585;
+  font-size: 1.8rem;
+}
+
+p::first-letter {
+  color: #00ced1;
+  font-size: 1.8rem;
+}
+
+p:hover::first-letter {
+  color: #483d8b;
+  font-size: 1.8rem;
+}
+
+p::first-line {
+  color: #2e8b57;
+}
+
+p:hover::first-line {
+  color: #f228fc;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+
+p::before {
+  content: "🐻‍❄️";
+}
+
+p::after {
+  content: "🐼";
+}
