@@ -7,29 +7,15 @@
   color: #333;
 }
 
-body {
-  text-align: center;
+div {
+  margin: 25px;
+  color: rgb(253, 165, 3);
+  font-size: large;
+  text-decoration: underline;
 }
-
-#layout {
-  background-color: #f1f1f1;
-  width: 500px;
-  padding: 10px;
-  margin: 0 auto;
-}
-
-.left {
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.right {
-  text-align: right;
-  margin-bottom: 10px;
-}
-button {
-  background-color: lightblue;
-  padding: 5px 15px;
-
-  border: 1px solid green;
+div:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #fcb941;
+  font-size: 3em;
 }
