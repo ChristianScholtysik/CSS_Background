@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  font-size: 1.2rem;
+  width: 500px;
+  list-style-type: none;
+}
+
+body {
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+h1::first-letter {
+  color: #00796b;
+  font-size: 3em;
+}
+
+h1:hover::first-letter {
+  color: #e425c4;
+  font-size: 3em;
+}
+
+.li-group-1 {
+  text-decoration: line-through;
+}
+
+.li-group-2 {
+  background-color: #aee2e8;
+}
+
+.li-group-3 {
+  text-decoration: underline;
+}
+
+.li-group-1::before {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/check.png);
+}
+
+#liElement_a:after {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/gym.png);
+}
+
+#liElement_b::after {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/bill.png);
+}
+
+.li-group-2::before {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/doing.png);
+}
+#liElement_c::after {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/dance.png);
+}
+
+#liElement_d::after {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/eat.png);
+}
+
+.li-group-3::before {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/no.png);
+}
+#liElement_e::after {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/book.png);
+}
+#liElement_f::after {
+  content: url(img/Lev1_3_css-einführung_pseudo-element/organize.png);
+}
